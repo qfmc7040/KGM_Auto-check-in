@@ -47,7 +47,7 @@ GitHub Actions 实现 `KGM概念VIP` 自动签到，每天领取总计 `两天KG
       **Repository permissions (仓库权限)**：`Metadata` 保持只读，`Secrets` 设置为读写
       ![精细化个人访问令牌权限](imgs/精细化个人访问令牌权限.png)
    - 滑动到底部，点击绿色的 Generate token 保存按钮
-   - 复制生成的字符串，回到本仓库添加到 [Secret](https://github.com/qfmc7040/KGM_Auto-check-in/edit/main/README.md#secret-%E4%BD%8D%E7%BD%AE)
+   - 复制生成的字符串，回到本仓库添加到[Secret](##Secret位置)
    - 变量名 `PAT`，value 为复制的令牌
 
 1. __登录__(两种登录方式任选其一)
